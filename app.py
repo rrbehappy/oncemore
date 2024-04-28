@@ -138,5 +138,7 @@ def perform_ocr():
             return jsonify({'error': 'Unsupported file format'}), 400
     else:
         return render_template('upload.html')
-
+if __name__ == '__main__':
+    # Move the print statement inside a route or function if needed
+    app.run(debug=True)
 
