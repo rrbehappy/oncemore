@@ -11,5 +11,3 @@ def read_pdf_content(pdf_path):
         pdf_content = file.read()
     return pdf_content
 
-
-# mongodb+srv://pranavdeepak2002:pannu2002@cluster0.q3ftkjf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
